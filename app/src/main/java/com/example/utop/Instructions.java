@@ -1,5 +1,6 @@
 package com.example.utop;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -11,6 +12,8 @@ public class Instructions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_instructions);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
         TextView textView = (TextView) findViewById(R.id.text);
         String str;
         str = "Dots and Boxes is a game where two players play and click on any grey buttons horizontal or vertical. \n" +
