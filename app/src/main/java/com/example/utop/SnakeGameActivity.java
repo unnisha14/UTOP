@@ -1,5 +1,6 @@
 package com.example.utop;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
@@ -23,6 +24,8 @@ public class SnakeGameActivity extends AppCompatActivity implements View.OnTouch
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_snake_game);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         gameEngine=new GameEngine();
         gameEngine.initGame();

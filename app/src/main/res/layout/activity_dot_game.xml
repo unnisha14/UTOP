@@ -60,7 +60,20 @@
         android:layout_height="75dp"
         android:layout_gravity="center"
         android:layout_margin="50dp"
+        android:textStyle="bold"
         android:backgroundTint="#DF6B6B"
-        android:text="Start"/>
+        android:text="S t a r t"/>
+
+    <Button
+        android:id="@+id/instr"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="I n s t r u c t i o n s"
+        android:textSize="18sp"
+        app:backgroundTint="#BC86E3" />
 
 </LinearLayout>

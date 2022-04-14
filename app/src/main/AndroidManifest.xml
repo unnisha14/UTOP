@@ -6,10 +6,11 @@
         android:allowBackup="true"
         android:icon="@drawable/utop"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:roundIcon="@drawable/utop"
+        android:supportsRtl="true"
         android:theme="@style/Theme.Utop">
-        <activity android:name=".ThirtySixBox"></activity>
+        <activity android:name=".Instructions"></activity>
+        <activity android:name=".ThirtySixBox" />
         <activity android:name=".TwentyFiveBox" />
         <activity android:name=".SixteenBox" />
         <activity android:name=".Winner" />

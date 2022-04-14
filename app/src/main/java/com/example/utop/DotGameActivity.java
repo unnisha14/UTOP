@@ -1,5 +1,6 @@
 package com.example.utop;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,7 +17,7 @@ import java.util.List;
 
 public class DotGameActivity extends AppCompatActivity {
     private EditText player1, player2;
-    private Button startButton;
+    private Button startButton, instrButton;
     private Spinner level_spinner;
     private int level;
     private String player1_name, player2_name;
@@ -25,11 +26,14 @@ public class DotGameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dot_game);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         player1 = (EditText) findViewById(R.id.player1);
         player2 = (EditText) findViewById(R.id.player2);
         level_spinner = (Spinner) findViewById(R.id.level);
         startButton = (Button) findViewById(R.id.start);
+        instrButton = (Button) findViewById(R.id.instr);
         setSpinner();
         startButton.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -98,6 +102,13 @@ public class DotGameActivity extends AppCompatActivity {
                     default:
                         break;
                 }
+            }
+        });
+
+        instrButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DotGameActivity.this, Instructions.class));
             }
         });
     }

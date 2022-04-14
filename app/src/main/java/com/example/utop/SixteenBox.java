@@ -1,6 +1,7 @@
 package com.example.utop;
 
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -375,6 +376,8 @@ public class SixteenBox extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sixteen_box);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         player1 = (Button) findViewById(R.id.player1);
         player2 = (Button) findViewById(R.id.player2);
