@@ -1,4 +1,4 @@
-package com.example.utop;
+package com.unnisha.utop;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,8 +6,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
-
-import java.util.Random;
 
 public class SnakeView extends View {
     private Paint mPaint=new Paint();

@@ -1,4 +1,4 @@
-package com.example.utop;
+package com.unnisha.utop;
 
 public class Coordinate {
     private int x;

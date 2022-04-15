@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.utop">
+    package="com.unnisha.utop">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,16 @@
         android:roundIcon="@drawable/utop"
         android:supportsRtl="true"
         android:theme="@style/Theme.Utop">
-        <activity android:name=".Instructions"></activity>
-        <activity android:name=".ThirtySixBox" />
-        <activity android:name=".TwentyFiveBox" />
-        <activity android:name=".SixteenBox" />
-        <activity android:name=".Winner" />
-        <activity android:name=".NineBox" />
-        <activity android:name=".DotGameActivity" />
-        <activity android:name=".SnakeGameActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.unnisha.utop.Instructions"></activity>
+        <activity android:name="com.unnisha.utop.ThirtySixBox" />
+        <activity android:name="com.unnisha.utop.TwentyFiveBox" />
+        <activity android:name="com.unnisha.utop.SixteenBox" />
+        <activity android:name="com.unnisha.utop.Winner" />
+        <activity android:name="com.unnisha.utop.NineBox" />
+        <activity android:name="com.unnisha.utop.DotGameActivity" />
+        <activity android:name="com.unnisha.utop.SnakeGameActivity" />
+        <activity android:name="com.unnisha.utop.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

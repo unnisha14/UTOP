@@ -1,4 +1,4 @@
-package com.example.utop;
+package com.unnisha.utop;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.ActionBar;
@@ -20,7 +20,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 
-public class SixteenBox extends AppCompatActivity {
+public class TwentyFiveBox extends AppCompatActivity {
     private Button player1, player2;
     private String player1_name, player2_name;
     private int size, player, box, node;
@@ -64,220 +64,340 @@ public class SixteenBox extends AppCompatActivity {
                     //Toast.makeText(NineBox.this, "4", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line5:
-                    x = 1;
+                    x = 5;
                     y = 6;
                     id = 4;
                     //Toast.makeText(NineBox.this, "5", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line6:
-                    x = 2;
+                    x = 1;
                     y = 7;
                     id = 5;
                     //Toast.makeText(NineBox.this, "6", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line7:
-                    x = 3;
+                    x = 2;
                     y = 8;
                     id = 6;
                     //Toast.makeText(NineBox.this, "7", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line8:
-                    x = 4;
+                    x = 3;
                     y = 9;
                     id = 7;
                     //Toast.makeText(NineBox.this, "8", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line9:
-                    x = 5;
+                    x = 4;
                     y = 10;
                     id = 8;
                     //Toast.makeText(NineBox.this, "9", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line10:
-                    x = 6;
-                    y = 7;
+                    x = 5;
+                    y = 11;
                     id = 9;
                     //Toast.makeText(NineBox.this, "10", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line11:
-                    x = 7;
-                    y = 8;
+                    x = 6;
+                    y = 12;
                     id = 10;
                     //Toast.makeText(NineBox.this, "11", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line12:
-                    x = 8;
-                    y = 9;
+                    x = 7;
+                    y = 8;
                     id = 11;
                     //Toast.makeText(NineBox.this, "12", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line13:
-                    x = 9;
-                    y = 10;
+                    x = 8;
+                    y = 9;
                     id = 12;
                     //Toast.makeText(NineBox.this, "13", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line14:
-                    x = 6;
-                    y = 11;
+                    x = 9;
+                    y = 10;
                     id = 13;
                     //Toast.makeText(NineBox.this, "14", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line15:
-                    x = 7;
-                    y = 12;
+                    x = 10;
+                    y = 11;
                     id = 14;
                     //Toast.makeText(NineBox.this, "15", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line16:
-                    x = 8;
-                    y = 13;
+                    x = 11;
+                    y = 12;
                     id = 15;
                     //Toast.makeText(NineBox.this, "16", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line17:
-                    x = 9;
-                    y = 14;
+                    x = 7;
+                    y = 13;
                     id = 16;
                     //Toast.makeText(NineBox.this, "17", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line18:
-                    x = 10;
-                    y = 15;
+                    x = 8;
+                    y = 14;
                     id = 17;
                     //Toast.makeText(NineBox.this, "18", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line19:
-                    x = 11;
-                    y = 12;
+                    x = 9;
+                    y = 15;
                     id = 18;
                     //Toast.makeText(NineBox.this, "19", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line20:
-                    x = 12;
-                    y = 13;
+                    x = 10;
+                    y = 16;
                     id = 19;
                     //Toast.makeText(NineBox.this, "20", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line21:
-                    x = 13;
-                    y = 14;
+                    x = 11;
+                    y = 17;
                     id = 20;
                     //Toast.makeText(NineBox.this, "21", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line22:
-                    x = 14;
-                    y = 15;
+                    x = 12;
+                    y = 18;
                     id = 21;
                     //Toast.makeText(NineBox.this, "22", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line23:
-                    x = 11;
-                    y = 16;
+                    x = 13;
+                    y = 14;
                     id = 22;
                     //Toast.makeText(NineBox.this, "23", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line24:
-                    x = 12;
-                    y = 17;
+                    x = 14;
+                    y = 15;
                     id = 23;
                     //Toast.makeText(NineBox.this, "24", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line25:
-                    x = 13;
-                    y = 18;
+                    x = 15;
+                    y = 16;
                     id = 24;
                     //Toast.makeText(NineBox.this, "1", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line26:
-                    x = 14;
-                    y = 19;
+                    x = 16;
+                    y = 17;
                     id = 25;
                     //Toast.makeText(NineBox.this, "2", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line27:
-                    x = 15;
-                    y = 20;
+                    x = 17;
+                    y = 18;
                     id = 26;
                     //Toast.makeText(NineBox.this, "3", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line28:
-                    x = 16;
-                    y = 17;
+                    x = 13;
+                    y = 19;
                     id = 27;
                     //Toast.makeText(NineBox.this, "4", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line29:
-                    x = 17;
-                    y = 18;
+                    x = 14;
+                    y = 20;
                     id = 28;
                     //Toast.makeText(NineBox.this, "5", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line30:
-                    x = 18;
-                    y = 19;
+                    x = 15;
+                    y = 21;
                     id = 29;
                     //Toast.makeText(NineBox.this, "6", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line31:
-                    x = 19;
-                    y = 20;
+                    x = 16;
+                    y = 22;
                     id = 30;
                     //Toast.makeText(NineBox.this, "7", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line32:
-                    x = 16;
-                    y = 21;
+                    x = 17;
+                    y = 23;
                     id = 31;
                     //Toast.makeText(NineBox.this, "8", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line33:
-                    x = 17;
-                    y = 22;
+                    x = 18;
+                    y = 24;
                     id = 32;
                     //Toast.makeText(NineBox.this, "9", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line34:
-                    x = 18;
-                    y = 23;
+                    x = 19;
+                    y = 20;
                     id = 33;
                     //Toast.makeText(NineBox.this, "10", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line35:
-                    x = 19;
-                    y = 24;
+                    x = 20;
+                    y = 21;
                     id = 34;
                     //Toast.makeText(NineBox.this, "11", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line36:
-                    x = 20;
-                    y = 25;
+                    x = 21;
+                    y = 22;
                     id = 35;
                     //Toast.makeText(NineBox.this, "12", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line37:
-                    x = 21;
-                    y = 22;
+                    x = 22;
+                    y = 23;
                     id = 36;
                     //Toast.makeText(NineBox.this, "13", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line38:
-                    x = 22;
-                    y = 23;
+                    x = 23;
+                    y = 24;
                     id = 37;
                     //Toast.makeText(NineBox.this, "14", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line39:
-                    x = 23;
-                    y = 24;
+                    x = 19;
+                    y = 25;
                     id = 38;
                     //Toast.makeText(NineBox.this, "15", Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.line40:
-                    x = 24;
-                    y = 25;
+                    x = 20;
+                    y = 26;
                     id = 39;
                     //Toast.makeText(NineBox.this, "16", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line41:
+                    x = 21;
+                    y = 27;
+                    id = 40;
+                    //Toast.makeText(NineBox.this, "1", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line42:
+                    x = 22;
+                    y = 28;
+                    id = 41;
+                    //Toast.makeText(NineBox.this, "2", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line43:
+                    x = 23;
+                    y = 29;
+                    id = 42;
+                    //Toast.makeText(NineBox.this, "3", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line44:
+                    x = 24;
+                    y = 30;
+                    id = 43;
+                    //Toast.makeText(NineBox.this, "4", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line45:
+                    x = 25;
+                    y = 26;
+                    id = 44;
+                    //Toast.makeText(NineBox.this, "5", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line46:
+                    x = 26;
+                    y = 27;
+                    id = 45;
+                    //Toast.makeText(NineBox.this, "6", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line47:
+                    x = 27;
+                    y = 28;
+                    id = 46;
+                    //Toast.makeText(NineBox.this, "7", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line48:
+                    x = 28;
+                    y = 29;
+                    id = 47;
+                    //Toast.makeText(NineBox.this, "8", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line49:
+                    x = 29;
+                    y = 30;
+                    id = 48;
+                    //Toast.makeText(NineBox.this, "9", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line50:
+                    x = 25;
+                    y = 31;
+                    id = 49;
+                    //Toast.makeText(NineBox.this, "10", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line51:
+                    x = 26;
+                    y = 32;
+                    id = 50;
+                    //Toast.makeText(NineBox.this, "11", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line52:
+                    x = 27;
+                    y = 33;
+                    id = 51;
+                    //Toast.makeText(NineBox.this, "12", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line53:
+                    x = 28;
+                    y = 34;
+                    id = 52;
+                    //Toast.makeText(NineBox.this, "13", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line54:
+                    x = 29;
+                    y = 35;
+                    id = 53;
+                    //Toast.makeText(NineBox.this, "14", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line55:
+                    x = 30;
+                    y = 36;
+                    id = 54;
+                    //Toast.makeText(NineBox.this, "15", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line56:
+                    x = 31;
+                    y = 32;
+                    id = 55;
+                    //Toast.makeText(NineBox.this, "16", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line57:
+                    x = 32;
+                    y = 33;
+                    id = 56;
+                    //Toast.makeText(NineBox.this, "17", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line58:
+                    x = 33;
+                    y = 34;
+                    id = 57;
+                    //Toast.makeText(NineBox.this, "18", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line59:
+                    x = 34;
+                    y = 35;
+                    id = 58;
+                    //Toast.makeText(NineBox.this, "19", Toast.LENGTH_SHORT).show();
+                    break;
+                case R.id.line60:
+                    x = 35;
+                    y = 36;
+                    id = 59;
+                    //Toast.makeText(NineBox.this, "20", Toast.LENGTH_SHORT).show();
                     break;
                 default:
                     x = -1;
@@ -293,7 +413,7 @@ public class SixteenBox extends AppCompatActivity {
                 nodesConnected(x, y, v);
             }
             else
-                Toast.makeText(SixteenBox.this, "Invalid", Toast.LENGTH_SHORT).show();
+                Toast.makeText(TwentyFiveBox.this, "Invalid", Toast.LENGTH_SHORT).show();
         }
     };
 
@@ -331,7 +451,7 @@ public class SixteenBox extends AppCompatActivity {
         }
 
         if (combo.size() == box){
-            Intent intent = new Intent(SixteenBox.this, Winner.class);
+            Intent intent = new Intent(TwentyFiveBox.this, Winner.class);
             String info;
             if (p1 == p2)
                 info = "Draw";
@@ -375,7 +495,7 @@ public class SixteenBox extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sixteen_box);
+        setContentView(R.layout.activity_twenty_five_box);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
@@ -430,6 +550,26 @@ public class SixteenBox extends AppCompatActivity {
         lines.add(findViewById(R.id.line38));
         lines.add(findViewById(R.id.line39));
         lines.add(findViewById(R.id.line40));
+        lines.add(findViewById(R.id.line41));
+        lines.add(findViewById(R.id.line42));
+        lines.add(findViewById(R.id.line43));
+        lines.add(findViewById(R.id.line44));
+        lines.add(findViewById(R.id.line45));
+        lines.add(findViewById(R.id.line46));
+        lines.add(findViewById(R.id.line47));
+        lines.add(findViewById(R.id.line48));
+        lines.add(findViewById(R.id.line49));
+        lines.add(findViewById(R.id.line50));
+        lines.add(findViewById(R.id.line51));
+        lines.add(findViewById(R.id.line52));
+        lines.add(findViewById(R.id.line53));
+        lines.add(findViewById(R.id.line54));
+        lines.add(findViewById(R.id.line55));
+        lines.add(findViewById(R.id.line56));
+        lines.add(findViewById(R.id.line57));
+        lines.add(findViewById(R.id.line58));
+        lines.add(findViewById(R.id.line59));
+        lines.add(findViewById(R.id.line60));
 
         circles = new ArrayList<ImageView>();
         circles.add(findViewById(R.id.circle1));
@@ -457,8 +597,19 @@ public class SixteenBox extends AppCompatActivity {
         circles.add(findViewById(R.id.circle23));
         circles.add(findViewById(R.id.circle24));
         circles.add(findViewById(R.id.circle25));
+        circles.add(findViewById(R.id.circle26));
+        circles.add(findViewById(R.id.circle27));
+        circles.add(findViewById(R.id.circle28));
+        circles.add(findViewById(R.id.circle29));
+        circles.add(findViewById(R.id.circle30));
+        circles.add(findViewById(R.id.circle31));
+        circles.add(findViewById(R.id.circle32));
+        circles.add(findViewById(R.id.circle33));
+        circles.add(findViewById(R.id.circle34));
+        circles.add(findViewById(R.id.circle35));
+        circles.add(findViewById(R.id.circle36));
 
-        for (int i = 0;i < 25; i++) {
+        for (int i = 0;i < 36; i++) {
             Random rn = new Random();
             int r, g, b;
             r = rn.nextInt()%255;
@@ -468,8 +619,8 @@ public class SixteenBox extends AppCompatActivity {
         }
 
         size = lines.size();
-        node = 26;
-        box = 16;
+        box = 25;
+        node = 37;
         player = 1;
         p1 = p2 = 0;
         nodes = new ArrayList[node];
